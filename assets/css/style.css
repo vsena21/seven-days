@@ -1,0 +1,53 @@
+:root {
+    --cinza-secundario: #667085;
+    --vermelho-vinho: #8E2424;
+    --preto-titulo: #101828;
+    --fonte: 'Inter';
+}
+
+.principal__container{
+    text-align: center;
+}
+
+.principal__sobre{
+    font-weight: 600;
+    color: var(--vermelho-vinho);
+}
+
+.principal__titulo{
+    font-size: 48px;
+    font-weight: 600;
+    margin: 1.87rem 0;
+}
+
+.principal__texto{
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--cinza-secundario);
+    margin: 0 11rem 6rem 11rem;
+}
+
+.principal__lista{
+    display: flex;
+    gap: 32px;
+    justify-content: flex-start;
+}
+
+.principal__dado{
+    font-size: 60px;
+    font-weight: 600;
+    color: var(--vermelho-vinho);
+}
+
+.principal__subtitulo{
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--preto-titulo);
+    margin: 0.5rem 0;
+}
+
+.principal__descricao{
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--cinza-secundario);    
+}
