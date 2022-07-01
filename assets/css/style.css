@@ -98,6 +98,24 @@
     margin-right: 1.5rem;
 }
 
+.vaga__enviar{
+    padding: 0.6rem;
+    margin-top: 1rem;
+    margin-left: 80%;
+    color: #FFF;
+    background-color: var(--vermelho-vinho);
+    border: 1px solid #EAECF0;
+    border-radius: 8px;
+}
+
+.vaga__enviar:hover{
+    color: var(--vermelho-vinho);
+    background-color: #FFF;
+    transform: scale(1.1);
+    transition: 1.2s;
+    border-color: var(--vermelho-vinho);
+}
+
 .secundaria{
     margin-bottom: 4rem;
 }
